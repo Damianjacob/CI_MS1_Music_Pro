@@ -10,3 +10,20 @@ body {
     font-family: Lato, sans-serif;
 }
 
+/* headings and logo */
+h1, h2 {
+    font-family: Zen Dots, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    color:black;
+}
+
+
+nav {
+    float: center;
+}
