@@ -21,6 +21,8 @@ h1, h2 {
     float: left;
     font-size: 250%;
     color:black;
+    margin-left: 30px;
+    font-family: Zen Dots, sans-serif;
 }
 
 /* nav bar */
@@ -51,4 +53,10 @@ h1, h2 {
 
 .active{
     border-bottom: 1px solid black;
+}
+
+/* carousel bootstrap */
+#carousel-container #carousel .carousel-item{
+    height: 600px;
+    width: 100%;
 }
