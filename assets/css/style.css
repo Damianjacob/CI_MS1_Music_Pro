@@ -10,9 +10,8 @@ body {
     font-family: Lato, sans-serif;
 }
 
-/* headings and logo */
+/* headers and logo */
 h1, h2 {
-    font-family: Zen Dots, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -59,4 +58,9 @@ h1, h2 {
 #carousel-container #carousel .carousel-item{
     height: 600px;
     width: 100%;
+}
+
+/* what we offer section */
+#offer-title {
+    text-align: center;
 }
