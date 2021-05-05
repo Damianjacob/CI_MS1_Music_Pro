@@ -60,7 +60,23 @@ h1, h2 {
     width: 100%;
 }
 
-/* what we offer section */
+/* Homepage description section */
 #offer-title {
     text-align: center;
+}
+
+#description div {
+    display: inline;
+}
+
+#description img {
+    width: 49%;
+}
+
+.left-about {
+    float: left;
+}
+
+.right-about {
+    float: right;
 }
