@@ -66,26 +66,23 @@ h1, h2 {
     margin: 2rem 0;
 }
 
-
 #description img {
     width: 100%;
     height: auto;
-
+    border-radius: 50%;
 }
 
 #description div {
     width: 50%;
     height: auto;
     max-width: 700px; 
-    padding: 1rem 2rem;
+    padding: 2rem 3rem;
 }
 
 .left-about {
     float: left;
-    background-color: blue;
 }
 
 .right-about {
     float: right;
-    background-color: brown;
 }
