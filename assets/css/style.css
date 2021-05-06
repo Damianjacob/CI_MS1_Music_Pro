@@ -95,3 +95,9 @@ h1, h2 {
 td, th {
     padding: 0 1rem;
 }
+
+#opening-hours {
+    width: 33%;
+    border: 1px solid black;
+    height: 33px;
+}
