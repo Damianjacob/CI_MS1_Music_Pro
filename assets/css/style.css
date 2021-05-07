@@ -70,18 +70,17 @@ h1, h2 {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    max-width: 600px;
 }
 
 #description div {
     width: 50%;
     height: auto;
-    max-width: 700px; 
     padding: 2rem 3rem;
-}
-
-#description h4 {
     text-align: center;
 }
+
+
 
 .left-about {
     float: left;
@@ -100,4 +99,12 @@ td, th {
     width: 33%;
     border: 1px solid black;
     padding: 1rem 2rem;
+    box-sizing: border-box;
+    background-color: brown;
+}
+
+/* iframe */
+iframe {
+    width: 66%;
+    height: 600px;
 }
