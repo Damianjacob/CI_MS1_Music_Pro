@@ -90,7 +90,7 @@ h1, h2 {
     float: right;
 }
 
-/* Opening hours div */
+/* Opening hours and directions divs */
 td, th {
     padding: 0 1rem;
 }
@@ -103,8 +103,20 @@ td, th {
     background-color: brown;
 }
 
+#directions {
+    width: 33%;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+}
+
 /* iframe */
 iframe {
     width: 66%;
     height: 600px;
+}
+
+footer {
+    background-color: red;
+    height: 150px;
 }
