@@ -75,7 +75,7 @@ h1, h2 {
 #description div {
     width: 50%;
     height: auto;
-    /* max-width: 700px;  */
+    max-width: 700px; 
     padding: 2rem 3rem;
 }
 
@@ -99,4 +99,5 @@ td, th {
 #opening-hours {
     width: 33%;
     border: 1px solid black;
+    padding: 1rem 2rem;
 }
