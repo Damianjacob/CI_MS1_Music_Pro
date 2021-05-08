@@ -84,10 +84,12 @@ h1, h2 {
 
 .left-about {
     float: left;
+    clear: left;
 }
 
 .right-about {
     float: right;
+    clear: right;
 }
 
 /* Opening hours and directions divs */
@@ -114,9 +116,38 @@ td, th {
 iframe {
     width: 66%;
     height: 600px;
+    margin: 30px 0;
 }
 
+/* footer */
+
 footer {
+    width: 100%;
     background-color: red;
     height: 150px;
+    clear: both;
+    margin-top: 30px;
+}
+
+footer table {
+    float: left;
+}
+
+footer table img {
+    height: 30px;
+    width: 30px;
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-media img {
+    height: 60px;
+    width: 60px;
+}
+
+#social-media li {
+    list-style-type: none;
 }
