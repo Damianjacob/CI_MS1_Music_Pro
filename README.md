@@ -1,3 +1,4 @@
+https://damianjacob.github.io/CI_MS1_Music_Pro/
 ------Project Goals
 Hi! the goal of this project is to create a responsive website for a music shop. 
 ------User Goals
