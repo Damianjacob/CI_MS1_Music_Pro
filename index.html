@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -23,7 +23,26 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+          Here is where the form to subscribe to the newsletter will be displayed
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Here is where all the contact information will be displayed
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -49,7 +68,7 @@
                     <a href="#">About Us</a>
                 </li>
                 <li id="subscription">
-                    <a href="#">Newsletter</a>
+                  <button type="button" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
                 </li>
             </ul>
         </nav>
@@ -142,7 +161,7 @@
       <table>
         <tr>
           <td>
-            <button type="button" data-toggle="modal" data-target="#exampleModalCenter">Contact Us</button>
+            <button type="button" data-toggle="modal" data-target="#contactUsModal">Contact Us</button>
           </td>
         </tr>
         <tr>
