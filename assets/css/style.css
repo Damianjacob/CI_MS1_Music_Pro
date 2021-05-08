@@ -123,10 +123,11 @@ iframe {
 
 footer {
     width: 100%;
-    background-color: red;
+    background-color: green;
     height: 150px;
     clear: both;
     margin-top: 30px;
+    padding: 45px 0;
 }
 
 footer table {
