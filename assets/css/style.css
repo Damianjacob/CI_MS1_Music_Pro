@@ -17,7 +17,7 @@ h1, h2 {
 }
 
 header {
-    background-color: orange;
+    background-color:rgb(231, 201, 146);
     margin: 0;
 }
 
@@ -137,7 +137,7 @@ iframe {
 
 footer {
     width: 100%;
-    /* background-color: green; */
+    background-color: rgb(231, 201, 146);
     height: 150px;
     clear: both;
     margin-top: 30px;
