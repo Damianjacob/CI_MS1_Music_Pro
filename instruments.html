@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Music Shop site for purchasing and repairing instruments">
+    <meta name="keywords" content="music shop, instruments, music, cork, ireland">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Music Pro</title>
+</head>
+
+<body>
+  <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Subscribe to our weekly newsletter and win a fantastic prize!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="POST" action="https://formdump.codeinstitute.net/">
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required class="text-input">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="subscribe-button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Music Pro</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="instruments.html" class="active">Instruments</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li id="subscription">
+                  <button type="button" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+      <ul id="social-media">
+        <li>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens site in a new tab)">
+            <img src="assets/images/facebook.png" alt="Facebook icon">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens site in a new tab)">
+            <img src="assets/images/Twitter.png" alt="Twitter icon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens site in a new tab)">
+            <img src="assets/images/instagram.png" alt="Instagram icon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube Channel (opens site in a new tab)">
+            <img src="assets/images/youtube.png" alt="YouTube icon">
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
