@@ -63,15 +63,18 @@ header {
 
 #menu button{
     background-color: inherit;
+    /* border-radius: 10px; */
 }
+
+#menu button:hover{
+    background-color: chocolate;
+    color: ;
+}
+
 /* carousel bootstrap */
 #carousel-container #carousel .carousel-item{
     height: 600px;
     width: 100%;
-}
-
-#carousel-container{
-    margin: 0;
 }
 
 /* Homepage description section */
@@ -180,4 +183,9 @@ form {
 .text-input {
     width: 100%;
     border: 1px solid black;
+}
+
+#subscribe-button{
+    background-color: rgb(231, 201, 146);
+    color: black;
 }
