@@ -16,18 +16,25 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
+header {
+    background-color: orange;
+    margin: 0;
+}
+
 #logo {
     float: left;
     font-size: 250%;
     color:black;
     margin-left: 30px;
     font-family: Zen Dots, sans-serif;
+    margin-bottom: 0;
 }
 
 /* nav bar */
 #menu {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 0;
 }
 
 #menu li {
@@ -54,10 +61,17 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
+#menu button{
+    background-color: inherit;
+}
 /* carousel bootstrap */
 #carousel-container #carousel .carousel-item{
     height: 600px;
     width: 100%;
+}
+
+#carousel-container{
+    margin: 0;
 }
 
 /* Homepage description section */
