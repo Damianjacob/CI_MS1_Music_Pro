@@ -152,3 +152,18 @@ footer table img {
 #social-media li {
     list-style-type: none;
 }
+
+/* newsletter form */
+
+form * {
+    clear: left;
+}
+
+form {
+    padding: 10px 20px;
+}
+
+.text-input {
+    width: 100%;
+    border: 1px solid black;
+}
