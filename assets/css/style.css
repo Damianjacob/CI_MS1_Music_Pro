@@ -67,7 +67,6 @@ header {
 }
 
 #menu button:hover{
-    /* background-color: chocolate; */
     color:black ;
 }
 
@@ -191,6 +190,17 @@ form {
 }
 
 /* instruments page */
+
+#instruments-nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 60px;
+    background-color: black;
+}
+
+#instruments-nav  a {
+    color:  rgb(231, 201, 146);
+}
 
 .grid-container{
     display: grid;
