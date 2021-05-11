@@ -205,6 +205,7 @@ form {
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
 }
 
 #instrument-section {
@@ -219,4 +220,5 @@ form {
 .instrument-category {
     grid-column-start: 1;
     grid-column-end: 5;
+    padding: 15px 0;
 }
