@@ -185,7 +185,7 @@ form {
     border: 1px solid black;
 }
 
-#subscribe-button{
+#subscribe-button {
     background-color: rgb(231, 201, 146);
     color: black;
 }
@@ -197,7 +197,16 @@ form {
     grid-template-columns: auto auto auto auto;
 }
 
-.grid-item img{
+#instrument-section {
+    margin-left: 30px;
+}
+
+.grid-item img {
     height: 240px;
     width: 240px;
+}
+
+.instrument-category {
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
