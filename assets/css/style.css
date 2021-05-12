@@ -224,3 +224,18 @@ form {
     padding: 15px 0;
     color: chocolate;
 }
+
+#buyModal img {
+    height: 15px;
+}
+
+#book-button{
+    background-color: rgb(231, 201, 146);
+    color: black;
+}
+
+.buy-button{
+    padding: 10px 15px;
+    border-radius: 20%;
+    background-color: rgb(231, 201, 146);
+}
