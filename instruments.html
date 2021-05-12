@@ -41,6 +41,48 @@
       </div>
     </div>
   </div>
+  <div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">At the moment we only offer pick-up, please select time slot and your preferred payment method</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="POST" action="https://formdump.codeinstitute.net/">
+            <label for="date_time">Date and time for your pickup:</label>
+            <input id="date_time" name="date_time" type="datetime-local" required class="text-input">
+
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+            
+            <label for="phone_number">Phone</label>
+            <input type="number" id="phone_number" name="phone_number" required class="text_input">
+            
+            <label for="paypal"><img src="assets/images/paypal.png" alt="Paypal icon"></label>
+            <input type="radio" id="paypal" name="payment_method" value="paypal">
+            <label for="credit_card"><img src="assets/images/credit-card.png" alt="Credit card icon"></label>
+            <input type="radio" id="credit_card" name="payment_method" value="credit_card">
+            <label for="cash"><img src="assets/images/euros.png" alt="cahs icon"></label>
+            <input type="radio" id="cash" name="payment_method" value="cash">
+            <label for="apple_pay"><img src="assets/images/applepay.png" alt="Apple Pay icon"></label>
+            <input type="radio" id="apple_pay" name="payment_method" value="apple_pay">
+            <label for="google_pay"><img src="assets/images/googlepay.png" alt="Paypal icon"></label>
+            <input type="radio" id="google_pay" name="payment_method" value="google_pay">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="subscribe-button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <header>
         <a href="index.html">
             <h1 id="logo">Music Pro</h1>
@@ -82,9 +124,7 @@
             <h5>Guitar name</h5>
             <p class="price">150 Euro</p>
             <p>A brief description and some general information about this instrument. Materials, features, build, brand,and so on. Some more text just to see how it fills up the space. </p>
-            <button>
-                Buy
-            </button>
+            <button type="button" data-toggle="modal" data-target="#buyModal" id="buy_button">Buy</button>
         </div>
         <div class="grid-item">
             <img src="assets/images/Guitars.jpg" alt="A bunch of guitars">
