@@ -223,6 +223,7 @@ form {
     grid-column-end: 5;
     padding: 15px 0;
     color: chocolate;
+    text-align: center;
 }
 
 #buyModal img {
