@@ -226,8 +226,8 @@ form {
     text-align: center;
 }
 
-#buyModal img {
-    height: 15px;
+#buyModal i {
+    font-size: 1rem;
 }
 
 #book-button{
