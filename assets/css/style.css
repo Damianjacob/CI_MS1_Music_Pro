@@ -214,8 +214,8 @@ form {
 }
 
 .grid-item img {
-    height: 240px;
-    width: 240px;
+    height: auto;
+    width: 90%;
 }
 
 .instrument-category {
