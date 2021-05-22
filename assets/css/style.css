@@ -240,3 +240,39 @@ form {
     border-radius: 20%;
     background-color: rgb(231, 201, 146);
 }
+
+/* About Us page */
+#about-us-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#about-us-main div {
+    width: 100%%;
+    padding: 30px;
+    min-height: 300px
+}
+
+#first-paragraph {
+    background-image: url("../images/man.jpg");
+    background-repeat: no;
+    background-size: cover;
+    background-color: red;
+    color: white
+}
+
+#second-paragraph {
+    background-image: url("../images/headphones-yellow.jpg");
+    background-repeat: no;
+    background-size: cover;
+    background-color: green;
+    color: blue
+}
+
+#third-paragraph {
+    background-image: url("../images/microphone.jpg");
+    background-repeat: no;
+    background-size: cover;
+    background-color: orange;
+    color: white
+}
