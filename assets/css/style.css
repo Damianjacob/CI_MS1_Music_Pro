@@ -136,7 +136,6 @@ iframe {
 }
 
 /* footer */
-
 footer {
     width: 100%;
     background-color: rgb(231, 201, 146);
@@ -144,6 +143,8 @@ footer {
     clear: both;
     margin-top: 30px;
     padding: 45px 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 footer table {
