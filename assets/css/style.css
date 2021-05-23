@@ -251,28 +251,30 @@ form {
     width: 100%%;
     padding: 30px;
     min-height: 300px
+    background-color: black;
+}
+
+#about-us-main p {
+    background-color: rgba(0,0,0,.5);
 }
 
 #first-paragraph {
-    background-image: url("../images/man.jpg");
+    background-image: url("../images/guitar-black.jpg");
     background-repeat: no;
     background-size: cover;
-    background-color: red;
-    color: white
+    color: rgb(231, 201, 146)
 }
 
 #second-paragraph {
-    background-image: url("../images/headphones-yellow.jpg");
+    background-image: url("../images/black-headphones.jpg");
     background-repeat: no;
     background-size: cover;
-    background-color: green;
-    color: blue
+    color: rgb(231, 201, 146)
 }
 
 #third-paragraph {
-    background-image: url("../images/microphone.jpg");
+    background-image: url("../images/black-microphone.jpg");
     background-repeat: no;
     background-size: cover;
-    background-color: orange;
-    color: white
+    color: rgb(231, 201, 146)
 }
