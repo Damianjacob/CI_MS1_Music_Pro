@@ -65,72 +65,77 @@
             </ul>
         </nav>
     </header>
-    <div class="left-about">
-        <table>
-            <tr>
-                <th>
-                    Music Pro
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    25 Oliver Plunkett Street
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Cork, Ireland
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    musicpro@gmail.com
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Mike: 089 123 4567
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Patrick: 089 098 7654
-                </td>
-            </tr>
-        </table>
+    
+    <div id="contact-us-section">
+        <div id="contact-information">
+            <table>
+                <tr>
+                    <th>
+                        Music Pro
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        25 Oliver Plunkett Street
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cork, Ireland
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        musicpro@gmail.com
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mike: 089 123 4567
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Patrick: 089 098 7654
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <fieldset id="your-query-fieldset">
+                <legend>Your Query</legend>
+                <form method="POST" action="https://formdump.codeinstitute.net/" id="contact-us-form">
+                    <label for="fname1">First Name</label>
+                    <input id="fname1" name="first_name" type="text" required class="text-input">
+                    
+                    <label for="lname1">Last Name</label>
+                    <input id="lname1" name="last_name" type="text" required class="text-input">
+                    
+                    <label for="email1">Email Address</label>
+                    <input type="email" id="email1" name="email_address" required class="text-input">
+                    
+                    <p>What do you want to talk to us about?</p>
+                    <input type="radio" id="instrument-repair" name="subject" value="instrument-repair">
+                    <label for="instrument-repair">I'm interested in your repair services</label>  
+                    <br>
+                    <input type="radio" id="complaint" name="subject" value="complaint">
+                    <label for="complaint">I have a complaint</label>
+                    <br>  
+                    <input type="radio" id="product-query" name="subject" value="product-query">
+                    <label for="product-query">I have a question about one of your products</label> 
+                    <br> 
+                    <input type="radio" id="other" name="subject" value="other">
+                    <label for="other">Other</label>      
+                    <br>
+                    <label for="query-text">Tell us more!</label>
+                    <input type="text" id="query-text" name="query-text" required class="text-input">
+                    <button type="submit" form="contact-us-form" value="submit" id="submit-button">
+                        Submit
+                    </button>
+                  </form>
+            </fieldset>
+        </div>
     </div>
-    <fieldset class="right-about" id="your-query-fieldset">
-        <legend>Your Query</legend>
-        <form method="POST" action="https://formdump.codeinstitute.net/" id="contact-us-form">
-            <label for="fname1">First Name</label>
-            <input id="fname1" name="first_name" type="text" required class="text-input">
-            
-            <label for="lname1">Last Name</label>
-            <input id="lname1" name="last_name" type="text" required class="text-input">
-            
-            <label for="email1">Email Address</label>
-            <input type="email" id="email1" name="email_address" required class="text-input">
-            
-            <p>What do you want to talk to us about?</p>
-            <input type="radio" id="instrument-repair" name="subject" value="instrument-repair">
-            <label for="instrument-repair">I'm interested in your repair services</label>  
-            <br>
-            <input type="radio" id="complaint" name="subject" value="complaint">
-            <label for="complaint">I have a complaint</label>
-            <br>  
-            <input type="radio" id="product-query" name="subject" value="product-query">
-            <label for="product-query">I have a question about one of your products</label> 
-            <br> 
-            <input type="radio" id="other" name="subject" value="other">
-            <label for="other">Other</label>      
-            <br>
-            <label for="query-text">Tell us more!</label>
-            <input type="text" id="query-text" name="query-text" required class="text-input">
-            <button type="submit" form="contact-us-form" value="submit" id="submit-button">
-                Submit
-            </button>
-          </form>
-    </fieldset>
     <footer>
       <ul id="social-media">
         <li>

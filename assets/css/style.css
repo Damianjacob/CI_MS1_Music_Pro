@@ -285,11 +285,18 @@ form {
 }
 
 /* contact us page */
+#contact-us-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 60px 30px;
+}
+
 #your-query-fieldset{
-    width: 50%;
+    max-width: 400px;
     border: 1px solid black;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
 }
 
 #submit-button{
@@ -298,4 +305,22 @@ form {
     padding: 10px 15px;
     border-radius: 10px;
     margin-top: 30px;
+}
+
+#contact-information {
+    text-align: center;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#contact-information table {
+    margin: auto;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+#query-text {
+    height: 5rem;
 }
