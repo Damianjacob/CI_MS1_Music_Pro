@@ -65,7 +65,7 @@
             </ul>
         </nav>
     </header>
-    <div>
+    <div class="left-about">
         <table>
             <tr>
                 <th>
@@ -99,7 +99,7 @@
             </tr>
         </table>
     </div>
-    <fieldset>
+    <fieldset class="right-about" id="your-query-fieldset">
         <legend>Your Query</legend>
         <form method="POST" action="https://formdump.codeinstitute.net/" id="contact-us-form">
             <label for="fname1">First Name</label>
@@ -114,16 +114,19 @@
             <p>What do you want to talk to us about?</p>
             <input type="radio" id="instrument-repair" name="subject" value="instrument-repair">
             <label for="instrument-repair">I'm interested in your repair services</label>  
+            <br>
             <input type="radio" id="complaint" name="subject" value="complaint">
-            <label for="complaint">I have a complaint</label>  
+            <label for="complaint">I have a complaint</label>
+            <br>  
             <input type="radio" id="product-query" name="subject" value="product-query">
-            <label for="product-query">I have a question about one of your products</label>  
+            <label for="product-query">I have a question about one of your products</label> 
+            <br> 
             <input type="radio" id="other" name="subject" value="other">
             <label for="other">Other</label>      
             <br>
             <label for="query-text">Tell us more!</label>
             <input type="text" id="query-text" name="query-text" required class="text-input">
-            <button type="submit" form="contact-us-form" value="submit">
+            <button type="submit" form="contact-us-form" value="submit" id="submit-button">
                 Submit
             </button>
           </form>

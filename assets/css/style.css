@@ -283,3 +283,19 @@ form {
     background-size: cover;
     color: rgb(231, 201, 146)
 }
+
+/* contact us page */
+#your-query-fieldset{
+    width: 50%;
+    border: 1px solid black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#submit-button{
+    background-color: rgb(231, 201, 146);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
