@@ -1,7 +1,7 @@
 https://damianjacob.github.io/CI_MS1_Music_Pro/
 ------Music Pro
 
-The goal of this project is to create a responsive website for a music shop. The site is targeted towards musicians and people who are buying an instrument for the first time. It will provide useful information for all the questions a customer might have.
+The goal of this project is to create a responsive website for a music shop. The site is targeted both towards musicians and people who are buying an instrument for the first time. It will provide useful information for all the questions a customer might have.
 ------User Goals
 1. Repair an instrument
 2. Buy a new instrument
@@ -23,9 +23,9 @@ The goal of this project is to create a responsive website for a music shop. The
 -----User Requirements and Expectations
 EXPLAIN
 ---- Design Choices
-EXPLAIN
+My goal was to create a simple, clean-looking site, that still could have its own character and stand out between other similar sites. 
 --------Colors
-EXPLAIN
+I selected three colors and tried to use all of them sparingly so as to not overwhelm the user and keep the site clean. The main colors are gold and black. Gold is a warm and elegant color and black is simple and elegant. Header and footer are gold on each page, and almost all fonts are black. The pictures on the homepage-carousel all have black as their main-color, and the same goes for the pictures on the About Us page. On the instrument page there is a second nav bar where i inverted the colors from the main nav bar: the background-color is black and the font-color is gold. This creates a nice contrast. To give them a bit more emphasis, i also gave all buttons a golden background-color. I have used a third color but very sparingly: chocolate. I used it only to give certain elements even more emphasis than usual. I used chocolate as a border-color for the links in the main nav bar when the user hovers over them. I also used it for the names of the instrument category, to make it more intuitive where one category ends and another one begins.
 --------Fonts
 EXPLAIN
 --------Structure
