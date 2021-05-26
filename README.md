@@ -64,7 +64,12 @@ EXPLAIN
 - Buy button 
    This button opens a modal which asks the user a series of information and allows them to book a slot for picking up their instrument.
 
-- 
+- About Us page
+   This page contains a brief description of the store and provides a bit of a backstory to it. This can create a stronger connection between the user and the store.
+
+- Contact us page
+   This page contains all the necessary information for the user to contact the store, it also has a form for any user question or communication.
+
 ## Validation
 EXPLAIN
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
@@ -72,8 +77,14 @@ EXPLAIN
 ## Bugs
 EXPLAIN
 ## Deployment
-EXPLAIN
+The site was deployed to Github pages. See the live link: https://damianjacob.github.io/CI_MS1_Music_Pro/index.html 
 ## Credit
-EXPLAIN
+
+### Content
+   I took the carousel and modal bootstraps from https://getbootstrap.com/ and followed the documentation from that site to modify the code of the bootstrap. I often referred back to various lessons from Code Institute and to W3schools or MDN.
+
+### Media
+   All the photos used on the site have been downloaded from one of the following copyright-free sites: Unsplash, StockVault, Pixabay. This includes the pictures of the icons for the social media links. 
+   The icons have been taken from font awesome.
 ## Acknowledgements
 EXPLAIN
