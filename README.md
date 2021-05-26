@@ -20,7 +20,7 @@ The goal of this project is to create a responsive website for a music shop. The
 3. Give the user an immediate idea of what services we offer
 4. Present our products in a way that is easy to navigate and intuitive
 5. Have a site that is modern and responsive on all devices
-##User Requirements and Expectations
+## User Requirements and Expectations
 EXPLAIN
 ## Design Choices
 My goal was to create a simple, clean-looking site, that still could have its own character and stand out between other similar sites. 
@@ -37,7 +37,34 @@ I used balsamiq for the wireframes. My original idea of the site looks a bit dif
 ##Technologies used
 EXPLAIN
 ## Features
-EXPLAIN
+### Existing features
+
+- Nav Bar
+   Featured on all the pages of the site, the responsive navigation bar includes links to the Logo, Home page, About Us and Contact Us page and is identical in each page in order to make the navigation easy.
+   This allows the user to easily reach every page without having to resort to the "back" button.
+
+- Home page carousel
+   This responsive carousel contains three beautiful images that should give the user a sense of excitement and grab their attention. A
+
+- Home page description section
+   This section explains the user what exactly the shop offers. It gives precise information about what the user can expect to find at the shop or in the page.
+
+- Opening hours and Google Maps iframe
+   This section give the user vital information: when the shop is open and a direct link to google maps. This makes it easy for the user to get directions. In case of necessity, there are verbal indications of how to get to the shop location.
+
+- Footer
+   The footer contains direct links to social media sites. This encourages the user to interact with the shop through these sites.
+
+- Instruments navigation bar
+   On this page, the user can scroll freely through all the available products, but the instruments navigation bar is very useful because it allows the user to jump to any category in the page.
+
+- Instruments grid
+   The instruments grid is an easy way for the user to see all the products offered by the music shop.
+
+- Buy button 
+   This button opens a modal which asks the user a series of information and allows them to book a slot for picking up their instrument.
+
+- 
 ## Validation
 EXPLAIN
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
