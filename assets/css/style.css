@@ -155,7 +155,6 @@ footer {
     width: 100%;
     background-color: rgb(231, 201, 146);
     height: 150px;
-    clear: both;
     margin-top: 30px;
     padding: 45px 0;
     position: absolute;
@@ -227,6 +226,7 @@ form {
 
 #instrument-section {
     margin-left: 30px;
+    padding-bottom: 180px;
 }
 
 .grid-item img {
