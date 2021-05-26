@@ -10,6 +10,11 @@ body {
     font-family: Lato, sans-serif;
 }
 
+#page-wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
 /* headers and logo */
 h1, h2 {
     text-transform: uppercase;
@@ -118,6 +123,11 @@ td, th {
     padding: 0 1rem;
 }
 
+#useful-info {
+    /* display: grid;
+    grid-template-columns: auto auto; */
+}
+
 #opening-hours {
     width: 33%;
     border: 1px solid black;
@@ -148,8 +158,8 @@ footer {
     clear: both;
     margin-top: 30px;
     padding: 45px 0;
-    /* position: absolute;
-    bottom: 0; */
+    position: absolute;
+    bottom: 0;
 }
 
 footer table {
