@@ -10,7 +10,7 @@ body {
     font-family: Lato, sans-serif;
 }
 
-#page-wrapper {
+.page-wrapper {
     position: relative;
     min-height: 100vh;
 }
@@ -123,10 +123,10 @@ td, th {
     padding: 0 1rem;
 }
 
-#useful-info {
-    /* display: grid;
-    grid-template-columns: auto auto; */
-}
+/* #useful-info {
+    display: grid;
+    grid-template-columns: auto auto;
+} */
 
 #opening-hours {
     width: 33%;
