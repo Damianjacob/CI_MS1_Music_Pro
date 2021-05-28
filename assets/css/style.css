@@ -276,6 +276,7 @@ form {
 
 #about-us-main p {
     background-color: rgba(0,0,0,.5);
+    max-width: 400px;
 }
 
 #first-paragraph {
@@ -337,4 +338,19 @@ form {
 
 #query-text {
     height: 5rem;
+}
+
+/* for mobile phones */
+@media only screen and (max-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: coral;
+    }
+    #about-us-main {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 60px 30px;
+        column-gap: 30px;
+    }
 }
