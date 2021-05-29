@@ -260,17 +260,22 @@ form {
 #about-us-main {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 60px 30px;
+    margin: 60px auto;
     column-gap: 30px;
+    min-height: 100vh;
+    max-width: 1290px;
+    background-image: url("../images/black-microphone.jpg");
+    background-repeat: no;
+    background-size: cover;
 }
 
 #about-us-main div {
     width: 100%;
     padding: 30px;
     min-height: 400px;
-    max-width: 600px;
-    background-color: black;
+    max-width: 400px;
     border-radius: 10%;
+    max-height: 400px;
 }
 
 #about-us-main p {
@@ -279,23 +284,14 @@ form {
 }
 
 #first-paragraph {
-    background-image: url("../images/guitar-black.jpg");
-    background-repeat: no;
-    background-size: cover;
     color: rgb(231, 201, 146)
 }
 
 #second-paragraph {
-    background-image: url("../images/black-headphones.jpg");
-    background-repeat: no;
-    background-size: cover;
     color: rgb(231, 201, 146)
 }
 
 #third-paragraph {
-    background-image: url("../images/black-microphone.jpg");
-    background-repeat: no;
-    background-size: cover;
     color: rgb(231, 201, 146)
 }
 
@@ -363,5 +359,4 @@ form {
         column-gap: 30px;
         row-gap: 30px;
     }
-
 }
