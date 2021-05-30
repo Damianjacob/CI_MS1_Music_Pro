@@ -384,9 +384,34 @@ form {
         top: 0;
         right: 0;
         margin-right: 1rem;
-        border: 1px solid red;
         height: 75px;
         align-items: center;
+        width: 2rem;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label::before,
+    .nav-toggle-label::after {
+        display: block;
+        background: black;
+        height: 2px;
+        width: 2rem;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .nav-toggle-label::before,
+    .nav-toggle-label::after {
+        content: '';
+        position: absolute;
+    }
+
+    .nav-toggle-label::before {
+        bottom: 28px;
+    }    
+
+    .nav-toggle-label::after{
+        top: 29px;
     }
 
     .nav-toggle:checked ~ #navigation-bar #menu {
