@@ -77,10 +77,16 @@ header {
     color:black ;
 }
 
+/* This is the checkbox used to show and collapse the navigation menu for smaller screens */
+#nav-toggle, .nav-toggle-label {
+    display: none;
+}
+
 /* carousel bootstrap */
 #carousel-container #carousel .carousel-item{
     height: 600px;
     width: 100%;
+    z-index: 0;
 }
 
 /* Homepage description section */
@@ -344,9 +350,10 @@ form {
     }
 
     #menu {
-        display: block;
         background-color: rgb(231, 201, 146);
         line-height: 35px;
+        display: block;
+        display: none;
     }
 
     nav {
@@ -355,7 +362,26 @@ form {
         right: 0;
         z-index: 10;
         top: 75px;
-        width: 100%;
+        width: 100%;       
+    }
+
+    .nav-toggle-label {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 1rem;
+        border: 1px solid red;
+        height: 75px;
+        align-items: center;
+    }
+
+    /* header #navigation-bar {
+        display: none;
+    } */
+
+    .nav-toggle:checked ~ #navigation-bar #menu {
+        display: block;
     }
 
     nav ul {
