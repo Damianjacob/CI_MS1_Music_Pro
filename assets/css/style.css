@@ -89,6 +89,16 @@ header {
     z-index: 0;
 }
 
+/* hero image */
+#hero-image-container {
+    background-image: url("../images/guitaronfire.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px 1200px;
+}
+
 /* Homepage description section */
 #offer-title {
     text-align: center;
@@ -347,6 +357,9 @@ form {
         background-color: rgb(231, 201, 146);
         width: 100%;
         z-index: 11;
+        font-size: 200%;
+        letter-spacing: 2px;
+        padding-left: 20px;
     }
 
     #menu {
@@ -376,10 +389,6 @@ form {
         align-items: center;
     }
 
-    /* header #navigation-bar {
-        display: none;
-    } */
-
     .nav-toggle:checked ~ #navigation-bar #menu {
         display: block;
     }
@@ -392,6 +401,12 @@ form {
     nav a:hover {
         border-bottom: 1px solid chocolate;
         border-top: 1px solid chocolate;
+    }
+
+    #hero-image-container {
+        height: 400px;
+        width: 100%;
+        background-size: 960px 600px;
     }
 
     #description {
