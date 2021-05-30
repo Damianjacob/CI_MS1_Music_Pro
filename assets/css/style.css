@@ -25,13 +25,14 @@ h1, h2 {
 header {
     background-color:rgb(231, 201, 146);
     margin: 0;
+    position: relative;
 }
 
 #logo {
     float: left;
     font-size: 250%;
     color:black;
-    margin-left: 30px;
+    padding-left: 30px;
     font-family: Zen Dots, sans-serif;
     margin-bottom: 0;
 }
@@ -41,10 +42,6 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
-    background-color: rgb(231, 201, 146);
-}
-
-header #navbar-bootstrap {
     background-color: rgb(231, 201, 146);
 }
 
@@ -65,7 +62,6 @@ header #navbar-bootstrap {
 #menu a:hover{
     border-bottom: 1px solid chocolate;
     border-top: 1px solid chocolate;
-    font-size: 110%;
 }
 
 .active{
@@ -240,6 +236,10 @@ form {
     width: 90%;
 }
 
+.grid-item {
+    color: black;
+}
+
 
 #buyModal i {
     font-size: 1rem;
@@ -337,6 +337,37 @@ form {
 
 /* for mobile phones */
 @media only screen and (max-width: 768px) {
+    #logo {
+        background-color: rgb(231, 201, 146);
+        width: 100%;
+        z-index: 11;
+    }
+
+    #menu {
+        display: block;
+        background-color: rgb(231, 201, 146);
+        line-height: 35px;
+    }
+
+    nav {
+        position: absolute;
+        text-align: center;
+        right: 0;
+        z-index: 10;
+        top: 75px;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a:hover {
+        border-bottom: 1px solid chocolate;
+        border-top: 1px solid chocolate;
+    }
+
     #description {
         display: grid;
         grid-template-columns: auto;
