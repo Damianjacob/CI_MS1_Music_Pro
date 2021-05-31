@@ -437,7 +437,7 @@ form {
     }
 
     #offer-title {
-        font-size: 175%;
+        font-size: 1.5rem;
         margin: 1.5rem 0;
     }
 
@@ -475,7 +475,7 @@ form {
 }
 
 /* for tablets: */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 799px) {
     h1, h2 {
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -561,7 +561,48 @@ form {
         width: 100%;
         background-size: 960px 600px;
     }
+
+    #offer-title {
+        font-size: 1.75rem;
+        margin: 2rem 0;
+    }
+
+    #description {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #description div {
+        width: 100%;
+        height: auto;
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+
 }
 
 /* for larger tablets */
-@media only screen and (min-width: 769px) and (max-width: 1024px)
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    h1, h2 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: roboto;
+    }
+
+    #logo {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        padding-left: 20px;
+    }
+
+    #offer-title {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    #hero-image-container {
+        height: 400px;
+        width: 100%;
+        background-size: 1280px 800px;
+    }
+}
