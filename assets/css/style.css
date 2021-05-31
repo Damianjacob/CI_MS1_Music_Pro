@@ -41,7 +41,7 @@ header {
 }
 
 #menu li {
-    font-size: 100%;
+    font-size: 120%;
     list-style-type: none;
     margin: 0 15px;
 }
@@ -371,6 +371,10 @@ form {
         display: none;
     }
 
+    #menu li {
+        font-size: 100%;
+    }
+
     nav {
         position: absolute;
         text-align: center;
@@ -453,6 +457,10 @@ form {
         text-align: center;
     }
 
+    #description h4 {
+        font-size: 1.25rem;
+    }
+
     /* instruments page */
     .grid-container {
         display: grid;
@@ -495,6 +503,10 @@ form {
         line-height: 35px;
         display: block;
         display: none;
+    }
+
+    #menu li {
+        font-size: 100%;
     }
 
     nav {
@@ -579,6 +591,10 @@ form {
         text-align: center;
     }
 
+    #description h4 {
+        font-size: 1.25rem;
+    }
+
 }
 
 /* for larger tablets */
@@ -587,6 +603,10 @@ form {
         text-transform: uppercase;
         letter-spacing: 2px;
         font-family: roboto;
+    }
+
+    #menu li {
+        font-size: 100%;
     }
 
     #logo {
