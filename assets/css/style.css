@@ -228,10 +228,11 @@ form {
     grid-template-columns: auto auto auto auto;
     column-gap: 30px;
     row-gap: 30px;
+    margin: auto;
+    max-width: 1600px;
 }
 
 #instrument-section {
-    margin-left: 30px;
     padding-bottom: 180px;
     padding: 15px 0;
     color: chocolate;
@@ -462,11 +463,37 @@ form {
     }
 
     /* instruments page */
+
+    #instruments-nav{
+        display: flex;
+        justify-content:space-between;
+        padding: 0;
+        background-color: black;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 40vh;
+        font-size: .8rem;
+        width: 70px;
+    }
+    
+    #instruments-nav  a {
+        color:  rgb(231, 201, 146);
+        padding: 10px 0;
+    }
+    
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
     }
-
+    
+    #instrument-section {
+        padding-bottom: 180px;
+        padding: 15px 70px 15px 0;
+        color: chocolate;
+        text-align: center;
+    }
+    
     .instrument-category {
         grid-column-start: 1;
         grid-column-end: 3;
