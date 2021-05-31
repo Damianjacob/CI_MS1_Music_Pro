@@ -349,6 +349,7 @@ form {
 
 /* for mobile phones */
 @media only screen and (max-width: 480px) {
+    /* index page */
     h1, h2 {
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -432,7 +433,7 @@ form {
     #hero-image-container {
         height: 400px;
         width: 100%;
-        background-size: 960px 600px;
+        background-size: 640px 400px;
     }
 
     #offer-title {
@@ -445,6 +446,14 @@ form {
         grid-template-columns: auto;
     }
 
+    #description div {
+        width: 100%;
+        height: auto;
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+
+    /* instruments page */
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
@@ -455,6 +464,7 @@ form {
         grid-column-end: 3;
     }
 
+    /* about us page */
     #about-us-main {
         display: grid;
         grid-template-columns: auto;
@@ -465,6 +475,93 @@ form {
 }
 
 /* for tablets: */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    h1, h2 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: roboto;
+    }
 
+    #logo {
+        background-color: rgb(231, 201, 146);
+        width: 100%;
+        font-size: 1.75rem;
+        letter-spacing: 2px;
+        padding-left: 20px;
+    }
+
+    #menu {
+        background-color: rgb(231, 201, 146);
+        line-height: 35px;
+        display: block;
+        display: none;
+    }
+
+    nav {
+        position: absolute;
+        text-align: center;
+        right: 0;
+        z-index: 10;
+        top: 75px;
+        width: 100%;       
+    }
+
+    .nav-toggle-label {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 1rem;
+        height: 75px;
+        align-items: center;
+        width: 2rem;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label::before,
+    .nav-toggle-label::after {
+        display: block;
+        background: black;
+        height: 2px;
+        width: 2rem;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .nav-toggle-label::before,
+    .nav-toggle-label::after {
+        content: '';
+        position: absolute;
+    }
+
+    .nav-toggle-label::before {
+        bottom: 28px;
+    }    
+
+    .nav-toggle-label::after{
+        top: 29px;
+    }
+
+    .nav-toggle:checked ~ #navigation-bar #menu {
+        display: block;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a:hover {
+        border-bottom: 1px solid chocolate;
+        border-top: 1px solid chocolate;
+    }
+
+    #hero-image-container {
+        height: 400px;
+        width: 100%;
+        background-size: 960px 600px;
+    }
 }
+
+/* for larger tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px)
