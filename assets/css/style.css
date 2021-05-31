@@ -10,11 +10,6 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.page-wrapper {
-    position: relative;
-    min-height: 100vh;
-}
-
 /* headers and logo */
 h1, h2 {
     text-transform: uppercase;
@@ -46,8 +41,9 @@ header {
 }
 
 #menu li {
-    font-size: 120%;
+    font-size: 100%;
     list-style-type: none;
+    margin: 0 15px;
 }
 
 #menu a{
@@ -352,14 +348,19 @@ form {
 }
 
 /* for mobile phones */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+    h1, h2 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: roboto;
+    }
+    
     #logo {
         background-color: rgb(231, 201, 146);
         width: 100%;
-        z-index: 11;
-        font-size: 200%;
-        letter-spacing: 2px;
-        padding-left: 20px;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        padding-left: 10px;
     }
 
     #menu {
@@ -434,6 +435,11 @@ form {
         background-size: 960px 600px;
     }
 
+    #offer-title {
+        font-size: 175%;
+        margin: 1.5rem 0;
+    }
+
     #description {
         display: grid;
         grid-template-columns: auto;
@@ -456,4 +462,9 @@ form {
         column-gap: 30px;
         row-gap: 30px;
     }
+}
+
+/* for tablets: */
+@media only screen and (max-width: 768px) {
+
 }
