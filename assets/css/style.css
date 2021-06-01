@@ -168,14 +168,6 @@ footer {
     padding: 45px 0;
 }
 
-footer table {
-    float: left;
-}
-
-footer table img {
-    height: 30px;
-    width: 30px;
-}
 
 #social-media {
     display: flex;
@@ -462,6 +454,20 @@ form {
         font-size: 1.25rem;
     }
 
+    /* footer */
+    footer {
+        width: 100%;
+        background-color: rgb(231, 201, 146);
+        height: 100px;
+        margin-top: 20px;
+        padding: 30px 0;
+    }
+    
+    #social-media img {
+        height: 40px;
+        width: 40px;
+    }
+
     /* instruments page */
 
     #instruments-nav{
@@ -633,6 +639,20 @@ form {
         font-size: 1.25rem;
     }
 
+    /* footer */
+    footer {
+        width: 100%;
+        background-color: rgb(231, 201, 146);
+        height: 110px;
+        margin-top: 20px;
+        padding: 30px 0;
+    }
+    
+    #social-media img {
+        height: 45px;
+        width: 45px;
+    }
+
     /* instruments pager */
     #instruments-nav{
         display: flex;
@@ -679,6 +699,7 @@ form {
         font-size: 1.35rem;
     }
 
+    /* footer */
 
 }
 
@@ -709,5 +730,19 @@ form {
         height: 400px;
         width: 100%;
         background-size: 1280px 800px;
+    }
+
+    /* footer */
+    footer {
+        width: 100%;
+        background-color: rgb(231, 201, 146);
+        height: 130px;
+        margin-top: 20px;
+        padding: 30px 0;
+    }
+    
+    #social-media img {
+        height: 50px;
+        width: 50px;
     }
 }
