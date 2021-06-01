@@ -164,7 +164,6 @@ footer {
     width: 100%;
     background-color: rgb(231, 201, 146);
     height: 150px;
-    margin-top: 30px;
     padding: 45px 0;
 }
 
@@ -264,8 +263,8 @@ form {
 /* About Us page */
 #about-us-main {
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 60px auto;
+    grid-template-columns: auto;
+    margin: 0 auto;
     column-gap: 30px;
     min-height: 100vh;
     max-width: 1290px;
@@ -281,6 +280,8 @@ form {
     max-width: 400px;
     border-radius: 10%;
     max-height: 400px;
+    margin: auto;
+    text-align: center;
 }
 
 #about-us-main p {
@@ -459,7 +460,6 @@ form {
         width: 100%;
         background-color: rgb(231, 201, 146);
         height: 100px;
-        margin-top: 20px;
         padding: 30px 0;
     }
     
@@ -644,7 +644,6 @@ form {
         width: 100%;
         background-color: rgb(231, 201, 146);
         height: 110px;
-        margin-top: 20px;
         padding: 30px 0;
     }
     
@@ -699,8 +698,6 @@ form {
         font-size: 1.35rem;
     }
 
-    /* footer */
-
 }
 
 /* for larger tablets */
@@ -737,7 +734,6 @@ form {
         width: 100%;
         background-color: rgb(231, 201, 146);
         height: 130px;
-        margin-top: 20px;
         padding: 30px 0;
     }
     
