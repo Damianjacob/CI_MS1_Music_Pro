@@ -276,17 +276,16 @@ form {
 #about-us-main div {
     width: 100%;
     padding: 30px;
-    min-height: 400px;
-    max-width: 400px;
-    border-radius: 10%;
-    max-height: 400px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
 }
 
 #about-us-main p {
     background-color: rgba(0,0,0,.5);
-    max-width: 400px;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #first-paragraph {
