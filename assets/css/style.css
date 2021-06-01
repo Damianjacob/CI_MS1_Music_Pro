@@ -485,6 +485,8 @@ form {
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
     }
     
     #instrument-section {
@@ -494,9 +496,18 @@ form {
         text-align: center;
     }
     
+    #instrument-section h5 {
+        font-size: 1rem;
+    }
+
+    .instrument-category h4{
+        font-size: 1.25rem;
+    }
+
     .instrument-category {
         grid-column-start: 1;
         grid-column-end: 3;
+
     }
 
     /* about us page */
@@ -621,6 +632,53 @@ form {
     #description h4 {
         font-size: 1.25rem;
     }
+
+    /* instruments pager */
+    #instruments-nav{
+        display: flex;
+        justify-content:space-between;
+        padding: 0;
+        background-color: black;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 40vh;
+        font-size: .85rem;
+        width: 80px;
+    }
+    
+    #instruments-nav  a {
+        color:  rgb(231, 201, 146);
+        padding: 15px 0;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+    
+    #instrument-section {
+        padding-bottom: 180px;
+        padding: 15px 80px 15px 0;
+        color: chocolate;
+        text-align: center;
+    }
+    
+    .instrument-category {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #instrument-section h5 {
+        font-size: 1.1rem;
+    }
+
+    .instrument-category h4{
+        font-size: 1.35rem;
+    }
+
 
 }
 
