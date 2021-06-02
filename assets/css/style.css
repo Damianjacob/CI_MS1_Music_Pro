@@ -261,11 +261,14 @@ form {
 }
 
 /* About Us page */
+#about-us-section {
+    display: block;
+    min-height: 100vh;
+}
+
 #about-us-main {
-    display: grid;
-    grid-template-columns: auto;
+    display: block;
     margin: 0 auto;
-    column-gap: 30px;
     min-height: 100vh;
     max-width: 1290px;
     background-image: url("../images/black-microphone.jpg");
@@ -279,12 +282,12 @@ form {
     max-width: 800px;
     margin: auto;
     text-align: center;
+    height: 33%;
 }
 
 #about-us-main p {
     background-color: rgba(0,0,0,.5);
     max-width: 800px;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -517,12 +520,34 @@ form {
 
     /* about us page */
     #about-us-main {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 60px 30px;
-        column-gap: 30px;
-        row-gap: 30px;
+        margin: 0 auto;
+        min-height: 100vh;
+        background-image: url("../images/black-microphone.jpg");
+        background-repeat: no;
+        background-size: 1160px 870px;
     }
+    
+    #about-us-main div {
+        width: 100%;
+        padding: 10px;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #about-us-main p {
+        background-color: rgba(0,0,0,.5);
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
+
+    #about-us-main h3 {
+        font-size: 1.25rem;
+    }
+    
+
 }
 
 /* for tablets: */
@@ -695,6 +720,35 @@ form {
 
     .instrument-category h4{
         font-size: 1.35rem;
+    }
+
+    /* about us page */
+    #about-us-main {
+        margin: 0 auto;
+        min-height: 100vh;
+        background-image: url("../images/black-microphone.jpg");
+        background-repeat: no;
+        background-size: cover;
+    }
+    
+    #about-us-main div {
+        width: 100%;
+        padding: 10px;
+        max-width: 600px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    
+    #about-us-main p {
+        background-color: rgba(0,0,0,.5);
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+    #about-us-main h3 {
+        font-size: 1.5rem;
     }
 
 }
