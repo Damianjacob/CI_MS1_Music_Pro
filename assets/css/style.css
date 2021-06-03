@@ -235,13 +235,7 @@ form {
     grid-column-end: 5;
 }
 
-/* .grid-item img {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-} */
-
-.vertical-images {
+.vertical-images img{
     height: 400px;
     width: 100%;
     object-fit: cover;
@@ -533,6 +527,19 @@ form {
         grid-column-end: 3;
     }
 
+    .vertical-images img{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .horizontal-images img {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+
     /* about us page */
     #about-us-main {
         margin: 0 auto;
@@ -760,6 +767,18 @@ form {
         font-size: 1.35rem;
     }
 
+    .vertical-images img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .horizontal-images img {
+        height: 125px;
+        width: 100%;
+        object-fit: cover;
+    }
+
     /* about us page */
     #about-us-main {
         margin: 0 auto;
@@ -832,4 +851,18 @@ form {
         height: 50px;
         width: 50px;
     }
+
+    /* instruments page */
+    .vertical-images img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .horizontal-images img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+
 }
