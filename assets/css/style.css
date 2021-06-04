@@ -538,21 +538,22 @@ form {
 
     /* about us page */
     #about-us-page-wrapper {
-        min-height: 100vh;
+        min-height: 900px;
+        height: 100vh;
         margin-bottom: 75px;
     }
 
     #about-us-section {
         display: block;
-        min-height: 100vh;
+        height: 100%;
         position: relative;
     }
 
     #about-us-main {
         display: grid;
         grid-template-columns: auto;
+        row-gap: 10px;
         margin: 0 auto;
-        /* min-height: 100vh; */
         background-image: url("../images/black-microphone.jpg");
         background-repeat: no;
         background-size: cover;
@@ -560,9 +561,7 @@ form {
         position: absolute;
         left: 0;
         top: 75px;
-        /* bottom: 175px; */
     }
-    
     
     #about-us-main div {
         width: 100%;
@@ -583,14 +582,12 @@ form {
     
     /* contact us page */
     #contact-page-wrapper {
-        min-height: 100vh;
+        min-height: 1100px;
     }
 
     #contact-us-section {
         display: grid;
         grid-template-columns: auto;
-        /* margin: 30px 0; */
-        /* max-width: 320px; */
         width: 100%;
         position: absolute;
         left: 0;
@@ -801,37 +798,95 @@ form {
     }
 
     /* about us page */
+    #about-us-page-wrapper {
+        min-height: 900px;
+        height: 100vh;
+        margin-bottom: 75px;
+    }
+
+    #about-us-section {
+        display: block;
+        height: 100%;
+        position: relative;
+    }
+
     #about-us-main {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
         margin: 0 auto;
-        min-height: 100vh;
         background-image: url("../images/black-microphone.jpg");
         background-repeat: no;
         background-size: cover;
+        background-position: center;
+        position: absolute;
+        left: 0;
+        top: 75px;
     }
     
     #about-us-main div {
         width: 100%;
-        padding: 10px;
-        max-width: 600px;
-        margin: 30px auto;
         text-align: center;
     }
     
     #about-us-main p {
         background-color: rgba(0,0,0,.5);
-        max-width: 600px;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
+
+    #about-us-main h3 {
+        font-size: 1.25rem;
+    }
+    
+    /* about us page */
+    #about-us-page-wrapper {
+        min-height: 100vh;
+        margin-bottom: 75px;
+    }
+
+    #about-us-section {
+        display: block;
+        /* min-height: 100vh; */
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #about-us-main {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        background-image: url("../images/black-microphone.jpg");
+        background-repeat: no;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        left: 0;
+        top: 75px;
+    }
+    
+    #about-us-main div {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #about-us-main p {
+        background-color: rgba(0,0,0,.5);
+        width: 75%;
         text-align: center;
         margin: 0 auto;
         font-size: 1rem;
     }
 
     #about-us-main h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     /* contact us page */
     #contact-page-wrapper {
-        min-height: 100vh;
+        min-height: 1100px;
     }
 
     #contact-us-section {
@@ -860,7 +915,6 @@ form {
     #query-text {
         height: 4rem;
     }
-
 }
 
 /* for larger tablets */
