@@ -267,7 +267,8 @@ form {
 }
 
 #about-us-main {
-    display: block;
+    display: grid;
+    grid-template-columns: auto;
     margin: 0 auto;
     min-height: 100vh;
     max-width: 1290px;
@@ -279,16 +280,15 @@ form {
 
 #about-us-main div {
     width: 100%;
-    padding: 30px;
     max-width: 800px;
     margin: auto;
     text-align: center;
-    height: 33%;
+    height: 30%;
 }
 
 #about-us-main p {
     background-color: rgba(0,0,0,.5);
-    max-width: 800px;
+    width: 66%;
     margin: 0 auto;
 }
 
@@ -537,25 +537,41 @@ form {
     
 
     /* about us page */
-    #about-us-main {
-        margin: 0 auto;
+    #about-us-page-wrapper {
         min-height: 100vh;
+        margin-bottom: 75px;
+    }
+
+    #about-us-section {
+        display: block;
+        min-height: 100vh;
+        position: relative;
+    }
+
+    #about-us-main {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        /* min-height: 100vh; */
         background-image: url("../images/black-microphone.jpg");
         background-repeat: no;
-        background-size: 1160px 870px;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        /* bottom: 175px; */
     }
+    
     
     #about-us-main div {
         width: 100%;
-        padding: 10px;
-        max-width: 600px;
-        margin: auto;
         text-align: center;
     }
     
     #about-us-main p {
         background-color: rgba(0,0,0,.5);
-        max-width: 600px;
+        width: 80%;
         text-align: center;
         margin: 0 auto;
         font-size: 0.9rem;
