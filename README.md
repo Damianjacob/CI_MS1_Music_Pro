@@ -43,8 +43,8 @@ EXPLAIN
    Featured on all the pages of the site, the responsive navigation bar includes links to the Logo, Home page, About Us and Contact Us page and is identical in each page in order to make the navigation easy.
    This allows the user to easily reach every page without having to resort to the "back" button.
 
-- Home page carousel
-   This responsive carousel contains three beautiful images that should give the user a sense of excitement and grab their attention. A
+- Home page hero image
+   This hero image contains a beautiful image of a guitar on fire.
 
 - Home page description section
    This section explains the user what exactly the shop offers. It gives precise information about what the user can expect to find at the shop or in the page.
@@ -79,7 +79,7 @@ No errors were found when passing through the official (Jigsaw) validator
 ACCESSIBILITY
 There is one error because of an empty form label on index.html, however i need that label to stay empty for my responsive nav bar to show correctly as a hamburger menu. Apart from that there are no errors.
 LIGHTHOUSE
-
+All of the pages in this site have achieved a score over 90 in performance, accessibility, best practices and SEO.
 
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
@@ -90,10 +90,12 @@ The site was deployed to Github pages. See the live link: https://damianjacob.gi
 ## Credit
 
 ### Content
-   I took the carousel and modal bootstraps from https://getbootstrap.com/ and followed the documentation from that site to modify the code of the bootstrap. I often referred back to various lessons from Code Institute and to W3schools or MDN.
+   I took used the modal bootstrap from https://getbootstrap.com/ and followed the documentation from that site to modify the code of the bootstrap. I often referred back to various lessons from Code Institute and to W3schools or MDN.
+   For the responsive nav bar using only CSS i followed this tutorial by Kevin Powell: https://www.youtube.com/watch?v=8QKOaTYvYUA
 
 ### Media
    All the photos used on the site have been downloaded from one of the following copyright-free sites: Unsplash, StockVault, Pixabay. This includes the pictures of the icons for the social media links. 
    The icons have been taken from font awesome.
+
 ## Acknowledgements
 EXPLAIN
