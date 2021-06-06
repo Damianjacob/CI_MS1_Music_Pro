@@ -107,8 +107,19 @@ EXPLAIN
 
 ### HTML
 No errors were returned when passing through the official W3C validator
+
+![html-validator]()  
+![html-validator]()  
+![html-validator]()  
+![html-validator]()  
+d
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
+![css-validator]()  
+![css-validator]()  
+![css-validator]()  
+![css-validator]()  
+
 ### ACCESSIBILITY
 There is one error because of an empty form label on index.html, however i need that label to stay empty for my responsive nav bar to show correctly as a hamburger menu.  The same goes for the instruments.html page in the buy modal: there are empty labels because i used icons from font awesome for those labels.
 ### LIGHTHOUSE
