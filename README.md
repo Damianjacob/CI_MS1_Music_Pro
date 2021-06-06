@@ -72,6 +72,10 @@ EXPLAIN
 
 ## Testing
 
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
 
 
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
