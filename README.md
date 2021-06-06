@@ -5,7 +5,11 @@ The goal of this project is to create a responsive website for a music shop. The
 ## User Goals
 1. Repair an instrument
 2. Buy a new instrument
-3. 
+3. Get information about opening hours
+4. Get information about location
+5. Get contact information
+6. Contact the shop via form
+7. Stay informed through a newsletter
 ## User Stories
 1. "I needed someone to repair my violin urgently, thanks to the music pro site it was easy to see that they offered this service and to arrange it by using the contact information"
 2. "I wanted to buy an instrument for my son, but i wasn't sure where to start. On the Music Pro website if saw that they offer advice for people who are buying an instrument for the first time, so i was convinced to visit the shop"
@@ -20,8 +24,7 @@ The goal of this project is to create a responsive website for a music shop. The
 3. Give the user an immediate idea of what services we offer
 4. Present our products in a way that is easy to navigate and intuitive
 5. Have a site that is modern and responsive on all devices
-## User Requirements and Expectations
-EXPLAIN
+
 ## Design Choices
 My goal was to create a simple, clean-looking site, that still could have its own character and stand out between other similar sites. 
 ## Colors
