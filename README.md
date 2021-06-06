@@ -29,7 +29,9 @@ I selected three colors and tried to use all of them sparingly so as to not over
 ## Fonts
 I used Zen Dots for the logo and the lato font for the body of my page. Zen Dots is a very particular font that makes the logo stand out, but it wouldn't be very legible if the entire page was in this font. Lato is perfect for the body, as it is a well readable sans-serif font.
 ## Structure
-The first thing that should jump to the user's attention should be the logo, that's why i i placed it in the top left corner, larger than the rest of the text and with a particular font. After that, there is the navigation menu in the following order: Home, Instruments, About Us, Contact Us and Newsletter.
+The first thing that should jump to the user's attention should be the logo, that's why i i placed it in the top left corner, larger than the rest of the text and with a particular font (zen dots).
+![logo](assets/images/readme-images/logo.png)
+After that, there is the navigation menu in the following order: Home, Instruments, About Us, Contact Us and Newsletter.
 On the homepage there is some essential information about the shop Music Pro: first of all a carousel with nice pictures of instruments that give an immediate sense of what the site is about. Immediately below, the user will find more information about what services and type of products the shop offers. Finally, there are a map of where to find the shop and the opening hours. These are probably the information which should be the fastest to find: i can imagine that a user might just come onto the site to check the opening hours or the location of the shop. Next on the nav  bar is the core of the site: the instrument selection. All instruments can be browsed on this site, and there is a second nav bar which allows the user to quickly jump to the category they want. Each instrument has its name, the price, some essential information and a buy button.
 The third link on the nav bar brings the user to the About Us page: This is where they can learn more about the shop and its founders. It gives the site a more human aspect and makes it more relatable. Finally, in the contact page the user can find all the relevant information for contacting the shop and a form for any queries.
 ## Wireframes
@@ -85,16 +87,19 @@ All of the pages in this site have achieved a score over 90 in performance, acce
 There have been some errors which i needed to fix:
 - HTML: I had used the same id for multiple elements on the instrument page. Both were related to the modal forms: i had used id=fname and id=lname in both modals. I fixed this by renaming the elements in the buy modal and pointing their labels accordingly.
 - CSS: I had mistakenly used the rule "background-repeat: no" for 4 different background images. This is incorrect and i changed it to "background-repeat: no-repeat".
-- Accessibility: The newsletter button had a low contrast error, so i changed its color to a darker tone in order to obtain a better contrast.
-
+- Accessibility: The newsletter button had a low contrast error, so i changed its color in order to obtain a better contrast.
+- Lighthouse: the performance of my site was suffering because i had used high-resolution images with a width of around 4000px. I reduced all images with a free online resource (https://www.befunky.com/features/resize-image/) to slightly above their max-width. This allowed my performace to reach a score of over 90.
 
 
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
 ## Bugs
-EXPLAIN
+
+The hardest bug to resolve was with the grid elements on the about-us.html and contact-us.html pages: once the viewport dropped below 800px (which is my breakpoint for tablets and mobile phones), the grid element overflowed to the right. It was very time consuming to try to figure out what the problem was, and once i discovered that it was overflowing thanks to the help of our tutor support, i tried changing the space and height rules with CSS. This still did not help, so i decided to set the display of the grid container to absolute and position it on the page. This created another bug: when reducing the height of the viewport, some of the content would overlap. I resolved this problem partially by changing the min-height from "100vh" to a set amount of px. There is still a part in my about-us page where the content overflows slightly over the background image at the very bottom (only with smaller screen sizes).
+
 ## Deployment
 The site was deployed to Github pages. See the live link: https://damianjacob.github.io/CI_MS1_Music_Pro/index.html 
+
 ## Credit
 
 ### Content
