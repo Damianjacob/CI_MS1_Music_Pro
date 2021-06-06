@@ -77,9 +77,6 @@ EXPLAIN
 - Instruments grid
    The instruments grid is an easy way for the user to see all the products offered by the music shop. ![instruments-section](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/instruments-section.png?raw=true)  
 
-- Buy button 
-   This button opens a modal which asks the user a series of information and allows them to book a slot for picking up their instrument.
-
 - About Us page
    This page contains a brief description of the store and provides a bit of a backstory to it. This can create a stronger connection between the user and the store. ![about-us](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/about-us.png?raw=true)  
 
@@ -143,4 +140,4 @@ The site was deployed to Github pages. See the live link: https://damianjacob.gi
    The icons have been taken from font awesome.
 
 ## Acknowledgements
-EXPLAIN
+I would like to thank my co-students who took their time to answer my questions or doubts on Slack, my mentor Mo Shami who gave me precious advice and lent me his expertise and the tutors of code Institute who helped me understand the origin of two bugs which i then could fix.
