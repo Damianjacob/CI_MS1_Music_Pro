@@ -31,9 +31,9 @@ I used Zen Dots for the logo and the lato font for the body of my page. Zen Dots
 ## Structure
 The first thing that should jump to the user's attention should be the logo, that's why i i placed it in the top left corner, larger than the rest of the text and with a particular font. After that, there is the navigation menu in the following order: Home, Instruments, About Us, Contact Us and Newsletter.
 On the homepage there is some essential information about the shop Music Pro: first of all a carousel with nice pictures of instruments that give an immediate sense of what the site is about. Immediately below, the user will find more information about what services and type of products the shop offers. Finally, there are a map of where to find the shop and the opening hours. These are probably the information which should be the fastest to find: i can imagine that a user might just come onto the site to check the opening hours or the location of the shop. Next on the nav  bar is the core of the site: the instrument selection. All instruments can be browsed on this site, and there is a second nav bar which allows the user to quickly jump to the category they want. Each instrument has its name, the price, some essential information and a buy button.
-The third link on the nav bar brings the user to the About Us page: This is where they can learn more about the shop and its founders. It gives the site a more human aspect and makes it more reliable. Finally, in the contact page the user can find all the relevant information for contacting the shop and a form for any queries.
+The third link on the nav bar brings the user to the About Us page: This is where they can learn more about the shop and its founders. It gives the site a more human aspect and makes it more relatable. Finally, in the contact page the user can find all the relevant information for contacting the shop and a form for any queries.
 ## Wireframes
-I used balsamiq for the wireframes. My original idea of the site looks a bit different from what it actually became: i did not use a "more info" button for the instruments. I also changed my mind about the "About Us" page: instead of creating a grid with a mix of images and text, i placed a few paragraphs with background-images as i liked tha idea better. I did not put a "contact us" link to a modal in the footer because i realized it would be nicer for the user to see the link immediately in the nav bar instead of having to search for it. I also delete the payment options from the footer because that looked too cluttered.
+I used balsamiq for the wireframes. Since some aspects of the project changed while i was making it, i created an updated wireframe to make sure it reflected the site accurately.
 ##Technologies used
 EXPLAIN
 ## Features
@@ -72,14 +72,22 @@ EXPLAIN
 
 ## Testing
 
-HTML
+### HTML
 No errors were returned when passing through the official W3C validator
-CSS
+### CSS
 No errors were found when passing through the official (Jigsaw) validator
-ACCESSIBILITY
-There is one error because of an empty form label on index.html, however i need that label to stay empty for my responsive nav bar to show correctly as a hamburger menu. Apart from that there are no errors.
-LIGHTHOUSE
+### ACCESSIBILITY
+There is one error because of an empty form label on index.html, however i need that label to stay empty for my responsive nav bar to show correctly as a hamburger menu.  The same goes for the instruments.html page in the buy modal: there are empty labels because i used icons from font awesome for those labels.
+### LIGHTHOUSE
 All of the pages in this site have achieved a score over 90 in performance, accessibility, best practices and SEO.
+
+### Fixed errors
+There have been some errors which i needed to fix:
+- HTML: I had used the same id for multiple elements on the instrument page. Both were related to the modal forms: i had used id=fname and id=lname in both modals. I fixed this by renaming the elements in the buy modal and pointing their labels accordingly.
+- CSS: I had mistakenly used the rule "background-repeat: no" for 4 different background images. This is incorrect and i changed it to "background-repeat: no-repeat".
+- Accessibility: The newsletter button had a low contrast error, so i changed its color to a darker tone in order to obtain a better contrast.
+
+
 
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
