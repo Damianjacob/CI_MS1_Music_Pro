@@ -111,6 +111,11 @@ There is one error because of an empty form label on index.html, however i need 
 ### LIGHTHOUSE
 All of the pages in this site have achieved a score over 90 in performance, accessibility, best practices and SEO.
 
+![lighthouse](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/index.html-performance.png)  
+![lighthouse](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/instruments.html-performance.png)  
+![lighthouse](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/about-us.html-performance.png)  
+![lighthouse](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/contact-us.html-performace.png)  
+
 ### Fixed errors
 There have been some errors which i needed to fix:
 - HTML: I had used the same id for multiple elements on the instrument page. Both were related to the modal forms: i had used id=fname and id=lname in both modals. I fixed this by renaming the elements in the buy modal and pointing their labels accordingly.
