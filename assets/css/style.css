@@ -98,7 +98,6 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     min-height: 100vh;
-    grid: 30px;
     margin: auto;
     max-width: 1600px;
 }
@@ -273,7 +272,7 @@ form {
     min-height: 100vh;
     max-width: 1290px;
     background-image: url("../images/black-microphone.jpg");
-    background-repeat: no;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -555,7 +554,7 @@ form {
         row-gap: 10px;
         margin: 0 auto;
         background-image: url("../images/black-microphone.jpg");
-        background-repeat: no;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -816,7 +815,7 @@ form {
         row-gap: 10px;
         margin: 0 auto;
         background-image: url("../images/black-microphone.jpg");
-        background-repeat: no;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -859,7 +858,7 @@ form {
         grid-template-columns: auto;
         width: 100%;
         background-image: url("../images/black-microphone.jpg");
-        background-repeat: no;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: absolute;
