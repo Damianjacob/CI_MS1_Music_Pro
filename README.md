@@ -78,6 +78,7 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 ACCESSIBILITY
 There is one error because of an empty form label on index.html, however i need that label to stay empty for my responsive nav bar to show correctly as a hamburger menu. Apart from that there are no errors.
+LIGHTHOUSE
 
 
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
