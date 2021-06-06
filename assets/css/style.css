@@ -436,6 +436,7 @@ form {
     }
 
     #hero-image-container {
+        background-image: url("../images/guitaronfire-small.jpg");
         height: 400px;
         width: 100%;
         background-size: 640px 400px;
@@ -699,6 +700,7 @@ form {
     }
 
     #hero-image-container {
+        background-image: url("../images/guitaronfire-medium.jpg");
         height: 400px;
         width: 100%;
         background-size: 960px 600px;
@@ -848,7 +850,6 @@ form {
 
     #about-us-section {
         display: block;
-        /* min-height: 100vh; */
         position: relative;
         margin: 0 auto;
     }
@@ -940,6 +941,7 @@ form {
     }
 
     #hero-image-container {
+        background-image: url("../images/guitaronfire-medium.jpg");
         height: 400px;
         width: 100%;
         background-size: 1280px 800px;
