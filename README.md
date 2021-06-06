@@ -70,8 +70,10 @@ EXPLAIN
 - Contact us page
    This page contains all the necessary information for the user to contact the store, it also has a form for any user question or communication.
 
-## Validation
-EXPLAIN
+## Testing
+
+
+
 ## Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
 ## Bugs
