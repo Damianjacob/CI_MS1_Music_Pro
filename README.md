@@ -11,13 +11,13 @@ The goal of this project is to create a responsive website for a music shop. The
 6. Contact the shop via form
 7. Stay informed through a newsletter
 ## User Stories
-1. "I needed someone to repair my violin urgently, thanks to the music pro site it was easy to see that they offered this service and to arrange it by using the contact information"
-2. "I wanted to buy an instrument for my son, but i wasn't sure where to start. On the Music Pro website if saw that they offer advice for people who are buying an instrument for the first time, so i was convinced to visit the shop"
-3. "I knew about Music Pro but i wasn't sure how to get there, so it was very convenient to see the Google Maps position and the directions on their site."
-4. "Before deciding to visit their shop, i wanted to know a bit more about it and its owners. Thanks to the gallery i got to see who they were and learned more about the history of Music Pro"
-5. "I just needed to check Music Pro's opening times to see if i was still in time to get there. That information was easy to find on the site"
-6. "I wanted a way to stay alerted about all offers Music Pro might have, so i subscribed to their newsletter"
-7. "Thanks to their intuitive site it was easy to find and order the product i needed."
+1. "As a professional musician i needed someon to repair my instrument, thanks to the music pro site it was easy to see that they offered this service and to arrange it by using the contact information"
+2. "As a first time buyer I wanted to buy an instrument for my son, but i wasn't sure where to start. On the Music Pro website if saw that they offer advice for people who are buying an instrument for the first time, so i was convinced to visit the shop"
+3. "As an interested musician I knew about Music Pro but i wasn't sure how to get there, so it was very convenient to see the Google Maps position and the directions on their site."
+4. "As a potential client before deciding to visit their shop, i wanted to know a bit more about it and its owners. Thanks to the gallery i got to see who they were and learned more about the history of Music Pro"
+5. "As an occasional customer I just needed to check Music Pro's opening times to see if i was still in time to get there. That information was easy to find on the site"
+6. "As a regular customer I wanted a way to stay alerted about all offers Music Pro might have, so i subscribed to their newsletter"
+7. "As a buyer, thanks to their intuitive site it was easy to find and order the product i needed."
 ## Site Owner Goals
 1. To have an appealing and friendly-looking site
 2. To have all the most important information about the shop easily accessible (address, contact information, directions)
@@ -32,7 +32,8 @@ I selected three colors and tried to use all of them sparingly so as to not over
 ## Fonts
 I used Zen Dots for the logo and the lato font for the body of my page. Zen Dots is a very particular font that makes the logo stand out, but it wouldn't be very legible if the entire page was in this font. Lato is perfect for the body, as it is a well readable sans-serif font.
 ## Structure
-The first thing that should jump to the user's attention should be the logo, that's why i i placed it in the top left corner, larger than the rest of the text and with a particular font (zen dots).
+The first thing that should jump to the user's attention should be the logo, that's why i i placed it in the top left corner, larger than the rest of the text and with a particular font (zen dots).  
+
 ![logo](https://github.com/Damianjacob/CI_MS1_Music_Pro/blob/master/assets/images/readme-images/logo.png?raw=true)  
 
 After that, there is the navigation menu in the following order: Home, Instruments, About Us, Contact Us and Newsletter.
